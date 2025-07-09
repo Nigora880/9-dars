@@ -1,0 +1,40 @@
+@import "../../mixin.scss";
+
+.header-top{
+    background-color: black;
+    padding: 12px 0 12px 0;
+
+    &__content{
+      @include Display($align:center, $space:space-between, $gap:0);
+
+    }
+    
+    &__wrapper{
+        @include Display($align:center, $space:start, $gap:52px);
+
+        div{
+            @include Display($align:center, $space:start,$gap:25px);
+        }
+       a{
+        @include Display($align:center, $space:start,$gap:75px);
+        @include TextStyle($FW:400, $FS:14px, $LH:14px, $LS:0%, $Color:#FFFFFF, $MB:0)
+       }
+    }
+    
+    &__right{
+        @include Display($align:center, $space:start,$gap:25px);
+      
+        p{
+        @include TextStyle($FW:400, $FS:14px, $LH:14px, $LS:0%, $Color:#FFFFFF, $MB:0)
+      }
+     
+      button{
+        background-color: transparent;
+        border: none;
+        @include TextStyle($FW:400, $FS:14px, $LH:14px, $LS:0%, $Color:#FFFFFF, $MB:0);
+        @include Display($align:center, $space:start,$gap:55px);
+
+      }
+    }
+
+}

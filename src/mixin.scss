@@ -1,0 +1,15 @@
+@mixin Display($align, $space, $gap){
+    display: flex;
+    align-items: $align;
+    justify-content: $space;
+    gap: $gap;
+}
+
+@mixin TextStyle($FW, $FS, $LH, $LS, $Color, $MB) {
+    font-weight: $FW;
+    font-size: $FS;
+    line-height: $LH;
+    letter-spacing: $LS;
+    color: $Color;
+    margin-bottom:$MB;
+}
