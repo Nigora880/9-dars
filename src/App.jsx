@@ -1,9 +1,11 @@
-import {Header} from "./modules";
+import {Header,Hero,Shipping} from "./modules";
 
 const App = () => {
     return (
         <>
         <Header/>
+        <Hero/>
+        <Shipping/>
         </>
     )
 }

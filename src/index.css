@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
     font-display: swap;
     font-family: 'Poppins';
@@ -35,3 +37,13 @@
   max-width: 1296px;
   margin: 0 auto;
 }
+
+.hero-section{
+  background-image: url("./assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: left 400px bottom;
+  background-size: contain;
+  width: 1550px;
+  height: 550px;
+}
+

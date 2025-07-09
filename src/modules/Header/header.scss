@@ -15,6 +15,7 @@
         div{
             @include Display($align:center, $space:start,$gap:25px);
         }
+        
        a{
         @include Display($align:center, $space:start,$gap:75px);
         @include TextStyle($FW:400, $FS:14px, $LH:14px, $LS:0%, $Color:#FFFFFF, $MB:0)
@@ -31,10 +32,12 @@
       button{
         background-color: transparent;
         border: none;
+        
         @include TextStyle($FW:400, $FS:14px, $LH:14px, $LS:0%, $Color:#FFFFFF, $MB:0);
         @include Display($align:center, $space:start,$gap:55px);
-
+      
       }
+      
     }
 
 }
